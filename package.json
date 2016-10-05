@@ -1,0 +1,26 @@
+{
+  "name": "hood-landing-page-web",
+  "version": "0.1.0",
+  "description": "Web version of the Hood App",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivandavid77/hood_landing_page.git"
+  },
+  "author": "richitmx",
+  "bugs": {
+    "url": "https://github.com/ivandavid77/hood_landing_page/issues"
+  },
+  "homepage": "https://github.com/ivandavid77/hood_landing_page",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-sftp": "^0.1.4"
+  },
+  "dependencies": {
+    "del": "^2.0.1"
+  }
+}
