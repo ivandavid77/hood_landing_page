@@ -7,11 +7,6 @@
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="apple-touch-icon" href="images/h-01.png">
-		<link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
-    <script src="js/addtohomescreen.min.js"></script>
-    <script>
-addToHomescreen();
-    </script>
     <title>Conoce Hood</title>
 		
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,400italic,600,300italic,300|Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -33,6 +28,11 @@ addToHomescreen();
 		<script src="js/html5shiv.min.js"></script>
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
+    <script src="js/addtohomescreen.min.js"></script>
+    <script>
+			addToHomescreen({ startDelay: 5, autostart: true });
+    </script>
 	</head>
 	<body data-spy="scroll" data-target=".main-nav">
 
@@ -173,11 +173,13 @@ addToHomescreen();
 							    <a href="https://www.hood.mx/es-ES/signup" class="btn btn-main btn-lg">Regístrate</a>
 						    </div>
 					    </div>
+							<!--
 							<div class="col-md-12">
 						    <div class="c2a">
-							    <a href="javascript:void(0)" onclick="addToHomescreen();" class="btn btn-main btn-lg">Descarga Hood a tu celular</a>
+							    <a href="#" id="addtohome" class="btn btn-main btn-lg">Descarga Hood a tu celular</a>
 						    </div>
 					    </div>
+							-->
 						</div>
 					</div>
 				</div>
